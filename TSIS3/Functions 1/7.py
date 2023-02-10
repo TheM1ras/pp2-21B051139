@@ -5,6 +5,3 @@ def has_33(nums):
             OK = True
     print(True) if OK == True else print(False)
 
-has_33([1, 3, 3])      #→ True
-has_33([1, 3, 1, 3])   #→ False
-has_33([3, 1, 3])      #→ False
