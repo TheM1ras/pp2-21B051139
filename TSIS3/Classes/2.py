@@ -14,6 +14,6 @@ class Square(Shape):
         return self.length ** 2
 
 Asqr = Square(int(input()))
-print(Asqr.area())      # prints 25 as given argument
+print(Asqr.area())      
 
-print(Square().area())  # prints zero as default area
+print(Square().area())  
