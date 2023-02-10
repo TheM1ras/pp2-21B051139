@@ -7,5 +7,5 @@ def isPrime(n):
     return True
 
 numbers = range(100)
-# n = int(input())
+n = int(input())
 print(list(filter(lambda n: isPrime(n), numbers)))
