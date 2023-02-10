@@ -17,7 +17,7 @@ class Point:
         print(dist((self.x, self.y), (4, 3)))
         return ((self.x - x) ** 2 + (self.y - y) ** 2) ** 0.5
 
-# x, y = list(map(int, input().split()))
+x, y = list(map(int, input().split()))
 p = Point(2, 5)
 p2 = Point(1, 3)
 p.show()
